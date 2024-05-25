@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #d276f7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url('https://t3.ftcdn.net/jpg/07/13/75/80/240_F_713758050_mUXw0rq0wKNKEV1Zic9guF4igOyoAwHr.jpg') ;
+    background-size: cover; */
+}
+
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    height: 540px;
+    background: #ffffff;
+    background-color: #cdbde7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.summary span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #020202;
+    width: 180px;
+    height: 40px;
+    /* background-color: #0af016; */
+    border-radius: 15px;
+}
+.present{
+    background-color: #89e98d;
+}
+.absent{
+    background-color: #e97979;
+}
+.leave{
+    background-color: #fdf182;
+}
+
+
+.form-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.form-section input {
+    width: 20%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #d484f3;
+    background-color: #e4a6f7;
+    border-radius: 5px;
+}
+
+.form-section button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #068f18;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #00b618;
+}
+
+.table-section {
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #e4a6f7;
+}
+
+td input[type="radio"] {
+    cursor: pointer;
+}
+
+.fa-heart {
+    cursor: pointer;
+    color: #ff0000;
+}
+
+.fa-heart:hover {
+    color: #ff6666;
+}
+
+.fa-solid.fa-heart {
+    color: #ff0000;
+}
